@@ -1,18 +1,28 @@
 {
-	"Version": 3,
-	"FileReferences": {
-		"Moc": "新　Vtuber3.moc3",
-		"Textures": [
-			"新　Vtuber3.2048/texture_00.png"
-		],
-		"Physics": "新　Vtuber3.physics3.json",
-		"DisplayInfo": "新　Vtuber3.cdi3.json"
-	},
-	"Groups": [
-		{
-			"Target": "Parameter",
-			"Name": "EyeBlink",
-			"Ids": []
-		}
-	]
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "lan.moc3",
+    "Textures": [
+      "lan.2048/texture_00.png"
+    ],
+    "Physics": "lan.physics3.json",
+    "DisplayInfo": "lan.cdi3.json"
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
 }
